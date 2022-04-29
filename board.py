@@ -57,7 +57,7 @@ def check_victory():
         return True
     if board[1][0] == board[1][1] == board[2][1] != '_':
         return True
-    if board[2][0] == board[1][2] == board[2][2] != '_':
+    if board[2][0] == board[2][1] == board[2][2] != '_':
         return True
 
     # Check diagonals for victory
